@@ -1,0 +1,39 @@
+html, body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color:#FCF5E3;
+}
+
+#div {
+    width: inherit;
+    height: inherit;
+}
+
+.banner {
+    position: relative;
+    width: 96.5%;
+    height: 50%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background:url("mopomo.gif") no-repeat;
+}
+
+.door {
+    width: 470px;
+    height: 447px;
+    position: relative;
+    margin-top: -15%;
+    margin-left: auto;
+    margin-right: auto;
+    background:url("mopomo_door.gif") no-repeat;
+}
+
+.door:hover {
+    background:url("mopomo_door_open.gif") no-repeat;
+}

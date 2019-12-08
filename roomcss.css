@@ -1,0 +1,49 @@
+body {
+    background-image: url("room_background.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+.room {
+    position: relative;
+}
+
+ul {
+    position: relative;
+}
+
+li {
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+.easel {
+    margin-left: 369.5%;
+    margin-top: 19%;
+    width: 133%;
+    height: auto;
+}
+
+.journal {
+    margin-left: 285%;
+    margin-top: 443%;
+    width: 137%;
+   height: auto;
+}
+
+.printer {
+    margin-left: 447%;
+    margin-top: 197%;
+    width: 134%;
+    height: auto;
+}
+
+.laptop {
+    margin-left: 155%;
+    margin-top: 127%;
+    width: 134%;
+    height: auto:
+}

@@ -1,8 +1,6 @@
 body {
     background-image: url("room_background.png");
     background-repeat: no-repeat;
-    width: auto;
-    height: auto;
     background-size: 100%;
 }
 
@@ -32,7 +30,6 @@ li {
     margin-top: 22.5vw;
     width: 7vw;
     height: auto;
-    z-index: 2;
 }
 
 .printer {
@@ -52,3 +49,16 @@ li {
 .easel .journal .printer .laptop {
     position: relative;
 }
+
+.transition {
+    position: absolute;
+    z-index: 1;
+    width: 21vw;
+    height: auto;
+}
+
+.about_page {
+    position: absolute;
+    z-index: 3;
+}
+

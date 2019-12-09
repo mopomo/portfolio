@@ -1,8 +1,8 @@
 body {
     background-image: url("room_background.png");
     background-repeat: no-repeat;
-    width: 1366px;
-    height: 768px;
+    width: auto;
+    height: auto;
     background-size: 100%;
 }
 
@@ -28,23 +28,24 @@ li {
 }
 
 .journal {
-    margin-left: 285%;
-    margin-top: 443%;
-    width: 137%;
+    margin-left: 14.5vw;
+    margin-top: 22.5vw;
+    width: 7vw;
     height: auto;
+    z-index: 2;
 }
 
 .printer {
-    margin-left: 450%;
-    margin-top: 198%;
-    width: 135%;
+    margin-left: 76.5vw;
+    margin-top: 34vw;
+    width: 23vw;
     height: auto;
 }
 
 .laptop {
-    margin-left: 155%;
-    margin-top: 127%;
-    width: 134%;
+    margin-left: 19.6vw;
+    margin-top: 16vw;
+    width: 16vw;
     height: auto;
 }
 

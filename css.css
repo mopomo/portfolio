@@ -9,11 +9,6 @@ body {
     background-color:#FCF5E3;
 }
 
-#div {
-    width: inherit;
-    height: inherit;
-}
-
 .banner {
     position: relative;
     width: 96.5%;
@@ -22,18 +17,24 @@ body {
     margin-left: auto;
     margin-right: auto;
     background:url("mopomo.gif") no-repeat;
+    background-position: auto center;
+    background-size: 100%;
 }
 
 .door {
-    width: 50%;
+    width: 60%;
     height: 447px;
     position: relative;
     margin-top: -15%;
     margin-left: auto;
     margin-right: auto;
     background:url("mopomo_door.gif") no-repeat;
+    background-position: center 5vh;
+    background-size: 30%;
 }
 
 .door:hover {
     background:url("mopomo_door_open.gif") no-repeat;
+    background-position: center 5vh;
+    background-size: 30%;
 }
